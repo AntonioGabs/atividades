@@ -1,1 +1,1 @@
-A
+Essas atividades estão sendo feitas durante o curso de Sistema de Informação como forma de aprendizado prático.
