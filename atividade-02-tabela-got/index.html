@@ -10,21 +10,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="https://thumbs.gfycat.com/ArtisticMessyDutchsmoushond-mobile.mp4" type="video/mp4">
+    </video>
+    <div id="table1">
         <h1 style="text-align: center;">Game Of Thrones</h1>
         <h2 style="text-align: center;">Temporadas</h2>
         <br>
 
-        <table border="1">
+        <table>
             <tr>
                 <th rowspan="2">Temporada</th>
                 <th rowspan="2">N° de Epsódios.</th>
-                <th colspan="2">Exibição original</th>
+                <th colspan="2" scope="colgroup">Exibição original</th>
                 <th rowspan="2">Site Oficial</th>
-            </tr>
-            <tr>
-                <th>Início</th>
-                <th>Término</th>
+                <tr>
+                    <th>Início</th>
+                    <th>Término</th>
+                </tr>
             </tr>
             <tr>
                 <td class="ordemNumerica">1</td>
@@ -83,59 +86,59 @@
                 <td><a href="#">Clique aqui</a></td>
             </tr>
         </table>
-    </main>
+    </div>
 
     <div id="table2">
     <h3 style="margin: 30px 0 10px; text-align:center;">Casas e Personagens</h3>
-    <table border="1">
+    <table>
         <tr>
             <th>CASA</th>
             <th>BRASÃO</th>
-            <th>LEMA</th>
+            <th width="200px">LEMA</th>
             <th>PERSONAGENS PRINCIPAIS</th>
         </tr>
         <tr>
             <td class="ordemNumerica">Stark</td>
             <td><img src="./images/stark.jpg" alt=""></td>
             <td>"O inverno está chegando"</td>
-            <td>
-                Eddard Stark
-                Jon Snow
-                Sansa Stark
-                Arya Stark
-                Bran Stark
+            <td class="leftData">
+                Eddard Stark<br>
+                Jon Snow<br>
+                Sansa Stark<br>
+                Arya Stark<br>
+                Bran Stark<br>
             </td>
         </tr>
         <tr>
             <td class="ordemNumerica">Lannister</td>
             <td><img src="./images/lannister.jpg" alt=""></td>
             <td>"Ouça-me Rugir"</td>
-            <td>
-                Tywin Lannister
-                Cersei Lannister
-                Jaime Lannister
-                Tyrion Lannister
+            <td class="leftData">
+                Tywin Lannister<br>
+                Cersei Lannister<br>
+                Jaime Lannister<br>
+                Tyrion Lannister<br>
             </td>
         </tr>
         <tr>
             <td class="ordemNumerica">Targaryen</td>
             <td><img src="./images/targaryen.jpg" alt=""></td>
             <td>"Fogo e Sangue"</td>
-            <td>
-                Aegon Targaryen
-                Visenya Targaryen
-                Viserys Targaryen
-                Daenerys Targaryen
+            <td class="leftData">
+                Aegon Targaryen<br>
+                Visenya Targaryen<br>
+                Viserys Targaryen<br>
+                Daenerys Targaryen<br>
             </td>
         </tr>
         <tr>
             <td class="ordemNumerica">Baratheon</td>
             <td><img src="./images/baratheon.jpg" alt=""></td>
             <td>"Nossa é a Fúria"</td>
-            <td>
-                Robert Baratheon
-                Renly Baratheon
-                Stannis Baratheon
+            <td class="leftData">
+                Robert Baratheon<br>
+                Renly Baratheon<br>
+                Stannis Baratheon<br>
             </td>
         </tr>
     </div>
